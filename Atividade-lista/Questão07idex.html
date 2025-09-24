@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro Complexo</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados do Usuário</legend>
+            <!--Campo de Nome-->
+            <label for="nome">Nome:</label>
+            <input type="text">
+            <br>
+            <!--Campo de emaill-->
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <!--Campo de Senha-->
+            <label for="senha">Senha:</label>
+            <input type="password">
+            <br>
+            <!--Área de Biografia-->
+            <label for="biografia">Biografia:</label>
+            <textarea name="bio" id="bio"></textarea>
+            <br>
+            <!--Menu Suspenso de País-->
+            <label for="pais">País de Origem</label>
+            <select name="pais" id="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="França">França</option>
+                <option value="Brasil">Brasil</option>
+            </select>
+            <br>
+            <!--Botão de Envio-->
+            <input type="submit" value="Cadastrar">
+        </fieldset>
+    </form>
+</body>
+
+</html>
